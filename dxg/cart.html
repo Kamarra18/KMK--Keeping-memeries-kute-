@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Keeping Memories Kute</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFF0F5;
+            margin-top: 20px;
+        }
+        .cart-item img {
+            border-radius: 8px;
+        }
+        .cart-item-title {
+            font-weight: bold;
+        }
+        .cart-item-price {
+            color: #FF69B4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center text-custom">Your Cart</h2>
+    <div class="cart-item d-md-flex justify-content-between">
+        <div class="d-flex">
+            <img src="https://via.placeholder.com/100" alt="Product Image" class="img-fluid">
+            <div class="ms-3">
+                <h5 class="cart-item-title">Memory Scrapbook Kit</h5>
+                <p>Color: Pastel Pink</p>
+                <p>Type: Scrapbooking</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <label for="quantity" class="form-label">Quantity</label>
+            <select id="quantity" class="form-select">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="text-center">
+            <p class="cart-item-price">$29.99</p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between mt-4">
+        <h4>Total</h4>
+        <p class="cart-item-price">$29.99</p>
+    </div>
+    <div class="d-flex justify-content-between mt-4">
+        <a href="shop.html" class="btn btn-outline-secondary">Continue Shopping</a>
+        <a href="checkout.html" class="btn btn-custom text-white">Proceed to Checkout</a>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
