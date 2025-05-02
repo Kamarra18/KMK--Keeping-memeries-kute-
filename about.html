@@ -14,43 +14,77 @@
         .text-custom {
             color: #FF69B4;
         }
+        .btn-pink {
+            background-color: #FF69B4;
+            color: white;
+        }
+        .btn-pink:hover {
+            background-color: #ff85c1;
+            color: white;
+        }
+        .about-section {
+            padding-top: 100px;
+            padding-bottom: 40px;
+        }
         .about-section img {
             border-radius: 8px;
         }
     </style>
 </head>
 <body>
+
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand fw-bold text-dark" href="index.html">Keeping Memories Kute</a>
-    
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="index.html">Home</a>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="about us.html">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="customization.html">Customization</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-pink ms-2" href="cart.html">Cart</a>
-            </li>
-          </ul>
+        <div class="container">
+            <a class="navbar-brand fw-bold text-dark" href="index.html">Keeping Memories Kute</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="about us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="customization.html">Customization</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-pink ms-2" href="cart.html">Cart</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
+
+    <!-- About Section -->
+    <div class="container about-section">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="text-custom">Our Mission</h2>
+                <p>At Keeping Memories Kute, we aim to help you preserve your precious moments in the most delightful way. Our products are designed to bring joy and creativity to your memory-keeping journey.</p>
+                <a href="#products" class="btn btn-pink text-white">Explore Our Products</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://via.placeholder.com/500" alt="Team photo at Keeping Memories Kute" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
     
 <div class="container about-section">
     <div class="row align-items-center">
         <div class="col-lg-6">
-            <h2 class="text-custom">Our Mission</h2>
-            <p>At Keeping Memories Kute, we aim to help you preserve your precious moments in the most delightful way. Our products are designed to bring joy and creativity to your memory-keeping journey.</p>
+            <h2 class="text-custom">When it started</h2>
+            <p>One cozy night, the three of us were flipping through old Polaroids, laughing and reminiscing about the little moments we had captured over the years. That’s when it hit us—those instant prints brought so much joy, and we wanted to share that feeling with others. So, we came up with the idea for Keeping Memories Kute, a playful, feel-good website where people can order personalized Polaroid packages for events, gifts, or just because. With our creativity, love for design, and passion for preserving memories, we set out to help others keep their moments not just memorable, but kute too.</p>
             <a href="#products" class="btn btn-custom text-white">Explore Our Products</a>
         </div>
         <div class="col-lg-6">
